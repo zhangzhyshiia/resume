@@ -81,7 +81,7 @@ html,body,.main{
     position: absolute;
     width: 3rem;
     height: 2rem;
-    bottom: 2.3rem;
+    top: 1.6rem;
     left:50%;
     margin-left: -1.5rem;
     opacity: 0;
@@ -516,7 +516,7 @@ html,body,.main{
 /*six*/
 
 .slide6 .content{
-
+position: relative;
 }
 .slide6 .content img{
     position: absolute;
@@ -546,17 +546,14 @@ html,body,.main{
     top: 3.5rem;
     -webkit-transform: rotate(22deg);
     transform: rotate(22deg);
-    -webkit-animation: move4 1s 1 both;
-    animation: move4 1s 1 both;
 }
+
 .slide6 .content p:nth-of-type(2){
     background: #fff;
     left: .5rem;
     top: 5rem;
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
-    -webkit-animation: move4 2s 1 both;
-    animation: move4 2s 1 both;
 }
 .slide6 .content p:nth-of-type(3){
     left: .5rem;
@@ -564,8 +561,6 @@ html,body,.main{
     background: #ff5757;
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
-    -webkit-animation: move4 3s 1 both;
-    animation: move4 3s 1 both;
 }
 .slide6 .content p:nth-of-type(4){
     background: #add561;
@@ -581,19 +576,19 @@ html,body,.main{
     -webkit-animation: bounceInDown 1s 1 both;
     animation: bounceInDown 1s 1 both;
 }
-#page6 .content p:nth-of-type(2){
+#page6 .content p:nth-of-type(1){
     -webkit-animation: move4 2s 1 both;
     animation: move4 2s 1 both;
 }
-#page6 .content p:nth-of-type(3){
+#page6 .content p:nth-of-type(2){
     -webkit-animation: move5 3s 1 both;
     animation: move5 3s 1 both;
 }
-#page6 .content p:nth-of-type(4){
+#page6 .content p:nth-of-type(3){
     -webkit-animation: rollIn 4s 1 both;
     animation: rollIn 4s 1 both;
 }
-#page6 .content p:nth-of-type(5){
+#page6 .content p:nth-of-type(4){
     -webkit-animation: rotateInDownLeft 5s 1 both;
     animation: rotateInDownLeft 5s 1 both;
 }
