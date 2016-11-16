@@ -81,7 +81,7 @@ html,body,.main{
     position: absolute;
     width: 3rem;
     height: 2rem;
-    top: 1.6rem;
+    top: 1.3rem;
     left:50%;
     margin-left: -1.5rem;
     opacity: 0;
@@ -516,7 +516,6 @@ html,body,.main{
 /*six*/
 
 .slide6 .content{
-position: relative;
 }
 .slide6 .content img{
     position: absolute;
