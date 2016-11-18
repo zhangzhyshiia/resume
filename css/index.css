@@ -214,7 +214,7 @@ html,body,.main{
     overflow: hidden;
     width:4.5rem;
     margin: 0 auto;
-    margin-top: 0.2rem;
+    margin-top: 0.4rem;
     background: rgba(0,0,0,0.2);
 }
 .slide2 ul li{
@@ -408,8 +408,7 @@ html,body,.main{
     width: 1.62rem;
     height: 1.62rem;
     display: block;
-    margin-left: .5rem;
-    margin-bottom: .4rem;
+    margin: 0.2rem 0 .4rem .5rem;
     border: .05rem solid #33acfe;
     border-radius: 50%;
 }
@@ -558,13 +557,13 @@ html,body,.main{
     width: 2.41rem;
     height: 5.45rem;
     right:0.5rem;
-    top:34%;
+    top:30%;
     opacity: 0;
 }
 .slide6 .content p:nth-of-type(1){
     background:#3fafba;
     left: .6rem;
-    top: 3.5rem;
+    top: 3rem;
     -webkit-transform: rotate(22deg);
     transform: rotate(22deg);
 }
@@ -572,13 +571,13 @@ html,body,.main{
 .slide6 .content p:nth-of-type(2){
     background: #fff;
     left: .6rem;
-    top: 5rem;
+    top: 4rem;
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
 }
 .slide6 .content p:nth-of-type(3){
     left: .6rem;
-    top: 6.5rem;
+    top: 5rem;
     background: #ff5757;
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
@@ -586,7 +585,7 @@ html,body,.main{
 .slide6 .content p:nth-of-type(4){
     background: #add561;
     left: .6rem;
-    top: 8rem;
+    top: 6rem;
     -webkit-transform: rotate(326deg);
     transform: rotate(326deg);
 }
@@ -674,7 +673,7 @@ html,body,.main{
 /*eight*/
 .slide8 .content div{
     width: 4.5rem;
-    height: 7rem;
+    height: 6rem;
     margin:0 auto;
     border: .05rem solid rgba(255,255,255,0.2);
     position: relative;
@@ -691,7 +690,7 @@ html,body,.main{
     height: 0.8rem;
     left: 50%;
     margin-left: -0.4rem;
-    top:.5rem;
+    top:.2rem;
 }
 #page8 .content div img:nth-of-type(1){
     -webkit-animation: move 3s infinite linear both;
@@ -702,13 +701,13 @@ html,body,.main{
     animation: bounceInDown 1.5s 1 linear both;
 }
 .slide8 .content div p{
-    font-size: .3rem;
+    font-size: .26rem;
     text-align: center;
-    line-height: .8rem;
+    line-height: .5rem;
     color: #fff;
+margin-top: 1.3rem;
     font-weight: bold;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    margin-top:1.6rem;
 }
 #page8 .content div p{
     -webkit-animation: rollIn 2s 1 linear both;
@@ -716,18 +715,17 @@ html,body,.main{
 }
 .slide8 .content div span{
     display: block;
-    font-size: .26rem;
+    font-size: .20rem;
     text-align: center;
     color: #ccc;
-    margin-top: .5rem;
+    margin-top: .2rem;
 }
 .slide8 .content div img:nth-of-type(2){
-    width: 2.5rem;
-    height: 2.5rem;
+    width: 2.2rem;
+    height: 2.2rem;
     left: 50%;
-    margin-left: -1.25rem;
-    bottom:1rem;
-
+    margin-left: -1.1rem;
+    bottom:.3rem;
 }
 @-webkit-keyframes move4 {
     0%{
