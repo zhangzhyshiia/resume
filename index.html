@@ -140,10 +140,10 @@
                     </div>
                 </div>
             </div>
-            <div class="swiper-pagination"></div>
+
         </div>
     </div>
-
+    <div class="swiper-pagination"></div>
 </section>
 </body>
 </html>
@@ -153,6 +153,8 @@
     var mySwiper = new Swiper(".swiper-container",{
        direction:"vertical",
        loop:true,
+        pagination: '.swiper-pagination',
+        paginationType : 'fraction',
        onTransitionEnd :function(swiper){
            //把原来的第一个滑块复制了一份放在最后的位置，
            //把原来的最后一个滑块复制了一份放在第一个位置
