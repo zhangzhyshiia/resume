@@ -214,12 +214,12 @@ html,body,.main{
     overflow: hidden;
     width:4.5rem;
     margin: 0 auto;
-    margin-top: 1rem;
+    margin-top: 0.2rem;
     background: rgba(0,0,0,0.2);
 }
 .slide2 ul li{
-    margin-bottom: 0.3rem;
-    line-height:0.5rem;
+    margin-bottom: 0.2rem;
+    line-height:0.4rem;
     overflow: hidden;
     display: block;
     padding: .2rem;
@@ -231,7 +231,7 @@ html,body,.main{
 .slide2 ul li a{
     float: right;
     font-size:0.3rem ;
-    line-height:0.5rem;
+    line-height:0.4rem;
     color: #fff;
     margin: 0 0.1rem;
     cursor: default;
@@ -397,7 +397,7 @@ html,body,.main{
 .content{
     width: 100%;
     overflow: hidden;
-    margin-top: 2.5rem;
+    margin-top: 34%;
 }
 .content .left{
     width: 45%;
@@ -409,8 +409,7 @@ html,body,.main{
     height: 1.62rem;
     display: block;
     margin-left: .5rem;
-    margin-bottom: .5rem;
-    margin-top: .2rem;
+    margin-bottom: .4rem;
     border: .05rem solid #33acfe;
     border-radius: 50%;
 }
@@ -427,7 +426,7 @@ html,body,.main{
     opacity: 0;
 }
 .slide3 .content .right{
-    margin-top: 1rem;
+    margin-top: 0.4rem;
     width: 50%;
     float: right;
     color: white;
@@ -525,7 +524,7 @@ html,body,.main{
 .slide5 .content ul li p{
     float: right;
     width: 76%;
-    font-size: .26rem;
+    font-size: .20rem;
     line-height: .5rem;
     color: #fff;
     background: rgba(0,0,0,0.2);
@@ -548,7 +547,7 @@ html,body,.main{
     position: absolute;
     text-align: center;
     font-size: .26rem;
-    width: 2rem;
+    width: 1.5rem;
     height: .7rem;
     opacity: 0;
     line-height: .7rem;
@@ -559,13 +558,12 @@ html,body,.main{
     width: 2.41rem;
     height: 5.45rem;
     right:0.5rem;
-    top:50%;
-    margin-top: -2.72rem;
+    top:34%;
     opacity: 0;
 }
 .slide6 .content p:nth-of-type(1){
     background:#3fafba;
-    left: .5rem;
+    left: .6rem;
     top: 3.5rem;
     -webkit-transform: rotate(22deg);
     transform: rotate(22deg);
@@ -573,13 +571,13 @@ html,body,.main{
 
 .slide6 .content p:nth-of-type(2){
     background: #fff;
-    left: .5rem;
+    left: .6rem;
     top: 5rem;
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
 }
 .slide6 .content p:nth-of-type(3){
-    left: .5rem;
+    left: .6rem;
     top: 6.5rem;
     background: #ff5757;
     -webkit-transform: rotate(0deg);
@@ -587,7 +585,7 @@ html,body,.main{
 }
 .slide6 .content p:nth-of-type(4){
     background: #add561;
-    left: .5rem;
+    left: .6rem;
     top: 8rem;
     -webkit-transform: rotate(326deg);
     transform: rotate(326deg);
@@ -618,7 +616,7 @@ html,body,.main{
 /*seven*/
 .slide7 .content div{
     position: relative;
-    width: 57%;
+    width: 59%;
     margin: .1rem auto;
     overflow: hidden;
     margin-bottom: .2rem;
@@ -676,7 +674,7 @@ html,body,.main{
 /*eight*/
 .slide8 .content div{
     width: 4.5rem;
-    height: 8rem;
+    height: 7rem;
     margin:0 auto;
     border: .05rem solid rgba(255,255,255,0.2);
     position: relative;
