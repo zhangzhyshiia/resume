@@ -87,7 +87,10 @@ html,body,.main{
     top:15%;
     left:50%;
     margin-left: -1.5rem;
-
+}
+#page1 .titleImg{
+    -webkit-animation: tada 2s linear 1 both;
+    animation: tada 2s linear 1 both;
 }
 .web{
     width: 6rem;
@@ -95,6 +98,10 @@ html,body,.main{
     bottom: 25%;
     left: 50%;
     margin-left: -3rem;
+}
+#page1 .web{
+    -webkit-animation: lightSpeedIn 2.7s linear 1 both;
+    animation: lightSpeedIn 2.7s linear 1 both;
 }
 .slide1 img{
     position: absolute;
