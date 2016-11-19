@@ -62,7 +62,7 @@ html,body,.main{
     position: absolute;
     left:50%;
     margin-left: -0.22rem;
-    bottom: 0.8rem;
+    bottom: 0.6rem;
     z-index:10;
     opacity: 1;
     -webkit-animation: fadeInUp 2s infinite both;
@@ -440,7 +440,7 @@ html,body,.main{
     opacity: 1;
 }
 /*four screen*/
-.slide3,.slide4,.slide5,.slide6,.slide7,.slide8{
+.slide3,.slide4,.slide5,.slide7,.slide8,.slide9{
     background: url("../img/bg2.jpg") no-repeat;
     background-size: 100% 100%;
     height: 100%;
@@ -513,6 +513,8 @@ html,body,.main{
     border: .03rem solid #000;
 /*    box-shadow: 0 0 0 .08rem #fff;*/
     margin-left: .1rem;
+}
+#page5 .content ul li span{
     -webkit-animation: move2 1s infinite both;
     animation: move2 1s infinite both;
 }
@@ -533,12 +535,12 @@ html,body,.main{
 }
 /*six*/
 
-.slide6 .content{
+.slide7 .content{
 }
-.slide6 .content img{
+.slide7 .content img{
     position: absolute;
 }
-.slide6 .content p{
+.slide7 .content p{
     position: absolute;
     text-align: center;
     font-size: .26rem;
@@ -548,7 +550,7 @@ html,body,.main{
     line-height: .7rem;
     box-shadow: .04rem .04rem .3rem .03rem #000;
 }
-.slide6 .content img:nth-of-type(1){
+.slide7 .content img:nth-of-type(1){
     display: block;
     width: 2.41rem;
     height: 5.45rem;
@@ -556,7 +558,7 @@ html,body,.main{
     top:30%;
     opacity: 0;
 }
-.slide6 .content p:nth-of-type(1){
+.slide7 .content p:nth-of-type(1){
     background:#3fafba;
     left: .6rem;
     top: 3rem;
@@ -564,52 +566,52 @@ html,body,.main{
     transform: rotate(22deg);
 }
 
-.slide6 .content p:nth-of-type(2){
+.slide7 .content p:nth-of-type(2){
     background: #fff;
     left: .6rem;
     top: 4rem;
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
 }
-.slide6 .content p:nth-of-type(3){
+.slide7 .content p:nth-of-type(3){
     left: .6rem;
     top: 5rem;
     background: #ff5757;
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
 }
-.slide6 .content p:nth-of-type(4){
+.slide7 .content p:nth-of-type(4){
     background: #add561;
     left: .6rem;
     top: 6rem;
     -webkit-transform: rotate(326deg);
     transform: rotate(326deg);
 }
-#page6 *{
+#page7 *{
     opacity: 1;
 }
-#page6 .content img:nth-of-type(1){
+#page7 .content img:nth-of-type(1){
     -webkit-animation: bounceInDown 1s 1 both;
     animation: bounceInDown 1s 1 both;
 }
-#page6 .content p:nth-of-type(1){
+#page7 .content p:nth-of-type(1){
     -webkit-animation: move4 2s 1 both;
     animation: move4 2s 1 both;
 }
-#page6 .content p:nth-of-type(2){
+#page7 .content p:nth-of-type(2){
     -webkit-animation: move5 3s 1 both;
     animation: move5 3s 1 both;
 }
-#page6 .content p:nth-of-type(3){
+#page7 .content p:nth-of-type(3){
     -webkit-animation: rollIn 4s 1 both;
     animation: rollIn 4s 1 both;
 }
-#page6 .content p:nth-of-type(4){
+#page7 .content p:nth-of-type(4){
     -webkit-animation: rotateInDownLeft 5s 1 both;
     animation: rotateInDownLeft 5s 1 both;
 }
 /*seven*/
-.slide7 .content div{
+.slide8 .content div{
     position: relative;
     width: 59%;
     margin: .1rem auto;
@@ -618,10 +620,10 @@ html,body,.main{
     position: relative;
     opacity: 0;
 }
-#page7 .content div{
+#page8 .content div{
     opacity: 1;
 }
-.slide7 .content div span{
+.slide8 .content div span{
     width: .3rem;
     height: .3rem;
     background: darkred;
@@ -629,7 +631,7 @@ html,body,.main{
     display: inline-block;
 }
 
-.slide7 .content div p{
+.slide8 .content div p{
     text-align: center;
     width: 3rem;
     display: inline-table;
@@ -641,33 +643,34 @@ html,body,.main{
     padding: .2rem;
 }
 
-#page7 .content:nth-of-type(1) span{
+#page8 .content:nth-of-type(1) span{
     -webkit-animation: fadeInDown 2s 1 both;
     animation: fadeInDown 1s 1 both;
 }
-#page7 .content:nth-of-type(1) p{
+#page8 .content:nth-of-type(1) p{
     -webkit-animation: fadeInDown 2s 1 both;
     animation: fadeInDown 1s 1 both;
 }
-#page7 .content:nth-of-type(2) span{
+#page8 .content:nth-of-type(2) span{
     -webkit-animation: fadeInDown 2s 1 both;
     animation: fadeInDown 3s 1 both;
 }
-#page7 .content:nth-of-type(2) p{
+#page8 .content:nth-of-type(2) p{
     -webkit-animation: fadeInDown 2s 1 both;
     animation: fadeInDown 3s 1 both;
 }
-#page7 .content:nth-of-type(3) span{
+#page8 .content:nth-of-type(3) span{
     -webkit-animation: fadeInDown 2s 1 both;
     animation: fadeInDown 5s 1 both;
 }
-#page7 .content:nth-of-type(3) p{
+#page8 .content:nth-of-type(3) p{
     -webkit-animation: fadeInDown 2s 1 both;
     animation: fadeInDown 5s 1 both;
 }
 
 /*eight*/
-.slide8 .content div{
+
+.slide9 .content div{
     width: 4.5rem;
     height: 6rem;
     margin:0 auto;
@@ -675,28 +678,29 @@ html,body,.main{
     position: relative;
     opacity: 0;
 }
-#page8 .content div{
+
+#page9 .content div{
     opacity: 1;
 }
-.slide8 .content div img{
+.slide9 .content div img{
     position: absolute;
 }
-.slide8 .content div img:nth-of-type(1){
+.slide9 .content div img:nth-of-type(1){
     width: 0.8rem;
     height: 0.8rem;
     left: 50%;
     margin-left: -0.4rem;
     top:.2rem;
 }
-#page8 .content div img:nth-of-type(1){
+#page9 .content div img:nth-of-type(1){
     -webkit-animation: move 3s infinite linear both;
     animation: move 3s infinite linear both;
 }
-#page8 .content div img:nth-of-type(2){
+#page9 .content div img:nth-of-type(2){
     -webkit-animation: bounceInDown 1.5s 1 linear both;
     animation: bounceInDown 1.5s 1 linear both;
 }
-.slide8 .content div p{
+.slide9 .content div p{
     font-size: .26rem;
     text-align: center;
     line-height: .5rem;
@@ -705,24 +709,102 @@ margin-top: 1.3rem;
     font-weight: bold;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-#page8 .content div p{
-    -webkit-animation: rollIn 2s 1 linear both;
-    animation: rollIn 2s 1 linear both;
+#page9 .content div p{
+    -webkit-animation: pulse 2s 1 linear both;
+    animation: pulse 2s 1 linear both;
 }
-.slide8 .content div span{
+.slide9 .content div span{
     display: block;
     font-size: .20rem;
     text-align: center;
     color: #ccc;
     margin-top: .2rem;
 }
-.slide8 .content div img:nth-of-type(2){
+.slide9 .content div img:nth-of-type(2){
     width: 2.2rem;
     height: 2.2rem;
     left: 50%;
     margin-left: -1.1rem;
     bottom:.3rem;
 }
+.slide6 .cube {
+    width: 100%;
+    height: 100%;
+    background: url("../img/bg2.jpg") no-repeat;
+    background-size: cover; /*容器背景图大小设置用COVER比100%会更合适,它会按照背景图片的比例填满整个容器,这样背景图不会变形*/
+    /*这个是我们立方体展示的舞台,我们想要看到舞台上的3D魔方需要距离舞台远一些->调整视距*/
+    perspective: 2000px;
+}
+.slide6 .cube .box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -2.55rem 0 0 -2.55rem;
+    width: 5.1rem;
+    height: 5.1rem;
+
+    /*想让哪个盒子实现3D变形,我们需要设置3D变形属性*/
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+
+    /*设置3D盒子开始位置的坐标点(中心点):center center 0 是默认值*/
+    -webkit-transform-origin: center center 0;
+    transform-origin: center center 0;
+
+    /*刚开始让盒子旋转一定的角度,这样看到一个立方体的效果*/
+    -webkit-transform: scale(0.6) rotateX(45deg) rotateY(45deg);
+    transform: scale(0.6) rotateX(45deg) rotateY(45deg);
+
+    /*为了能够让其旋转的时候有动画的效果,我们给其加一个过渡动画Transition*/
+    -webkit-transition: all .5s;
+    transition: all .5s;
+}
+
+.slide6 .cube .box img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -2.55rem 0 0 -2.55rem;
+    width: 100%;
+    height: 100%;
+}
+
+/*正面*/
+.slide6 .cube .box img:nth-child(1) {
+    -webkit-transform: translateZ(2.55rem);
+    transform: translateZ(2.55rem);
+}
+
+/*反面*/
+.slide6 .cube .box img:nth-child(2) {
+    -webkit-transform: translateZ(-2.55rem) rotateY(180deg);
+    transform: translateZ(-2.55rem) rotateY(180deg);
+}
+
+/*左侧面*/
+.slide6 .cube .box img:nth-child(3) {
+    -webkit-transform: translateX(-2.55rem) rotateY(-90deg);
+    transform: translateX(-2.55rem) rotateY(-90deg);
+}
+
+/*右侧面*/
+.slide6 .cube .box img:nth-child(4) {
+    -webkit-transform: translateX(2.55rem) rotateY(90deg);
+    transform: translateX(2.55rem) rotateY(90deg);
+}
+
+/*上侧面*/
+.slide6 .cube .box img:nth-child(5) {
+    -webkit-transform: translateY(-2.55rem) rotateX(-90deg);
+    transform: translateY(-2.55rem) rotateX(-90deg);
+}
+
+/*下侧面*/
+.slide6 .cube .box img:nth-child(6) {
+    -webkit-transform: translateY(2.55rem) rotateX(90deg);
+    transform: translateY(2.55rem) rotateX(90deg);
+}
+
 @-webkit-keyframes move4 {
     0%{
         -webkit-transform-origin: right bottom;
