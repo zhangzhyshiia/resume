@@ -8,10 +8,9 @@
     <link rel="stylesheet" href="css/index.css"/>
     <link rel="stylesheet" href="css/swiper.min.css"/>
     <link rel="stylesheet" href="css/animate.css"/>
-    <script type="text/javascript" src="js/index.js"></script>
 </head>
 <body>
-<section class="main">
+<section class="main" id="main">
     <div class="music">
         <audio src="audio/mm.mp3" loop preload="none" id="beyond"></audio>
     </div>
@@ -129,12 +128,8 @@
                 </div>
                 <div class="content">
                     <div>
-                        <span></span><p>2016/02--2016/11</br>
+                        <span></span><p>2015/10--2016/11</br>
                         北京水木财富</br>前端开发</p>
-                    </div>
-                    <div>
-                        <span></span><p>2015/10--2016/02</br>
-                        北京财智宏道科技</br>美工</p>
                     </div>
                     <div>
                         <span></span><p>2014/09--2015/09</br>
@@ -166,58 +161,4 @@
 <script src="js/swiper.min.js"></script>
 <script src="js/zepto.min.js"></script>
 <script src="js/cube.js"></script>
-<script>
-    /*循环模式*/
-    var mySwiper = new Swiper(".swiper-container",{
-       direction:"vertical",
-       loop:true,
-        pagination: '.swiper-pagination',
-        paginationType : 'fraction',
-       onTransitionEnd :function(swiper){
-           //把原来的第一个滑块复制了一份放在最后的位置，
-           //把原来的最后一个滑块复制了一份放在第一个位置
-           var slides = swiper.slides;
-           var curIndex = swiper.activeIndex;
-           var lastIndexSlide = slides.length-1;//现在最后一个滑块
-           var trueIndexSlide = slides.length-2;//原来最后一个滑块
-            [].forEach.call(slides,function(item,index){
-                item.id = "";
-                if(curIndex == index){//对当前显示的滑块做判断
-                    switch (index){
-                        case 0:
-                            item.id = "page"+trueIndexSlide;
-                            break;
-                        case lastIndexSlide:
-                            item.id = "page1";
-                            break;
-                        default:
-                            item.id = "page"+curIndex;
-                    }
-                }
-
-            })
-
-       }
-    })
-
-    var music = document.querySelector(".music");
-    var beyond = document.querySelector("#beyond");
-    window.setTimeout(function(){
-        beyond.play();
-        beyond.addEventListener("canplay",function(){
-            music.className = "music musicCur";
-        })
-    },1000);
-    music.addEventListener("click",function(){
-        //paused属性判断音频文件是播放的还是停止 beyond.paused=true说明音频文件目前是停止播放
-        //让音频文件播放play(),让音频文件停止是pause();
-        if(beyond.paused){//停止
-            beyond.play();
-            music.className = "music musicCur";
-        }else{
-            beyond.pause();
-            music.className = "music";
-            music.style.opacity = 1;
-        }
-    },false)
-</script>
+<script src="js/index.js"></script>
